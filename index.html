@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3ce7f5ba6a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--------Header------->
+
+    <div id="header">
+      <div class="container"></div>
+      <nav>
+        <img src="images/uao.jpg" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>FULL-STACK WEB DEVELOPER</p>
+        <h1>Hi, I'm <span>Jayson</span><br />from The Philippines</h1>
+      </div>
+    </div>
+
+    <!--------About------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/JAYSONUAO.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Detail-oriented and creative-minded professional with exceptional
+              interpersonal skills, and team working abilities. Has an excellent
+              ability to adhere to established procedures, and thrive and learn
+              on his own under little or no supervision.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>FRONT-END WEB DEVELOPMENT</span><br />Responsible for
+                  ensuring the alignment of web design and user experience
+                  requirements, <br />
+                  optimizing web pages for maximum efficiency, and maintaining
+                  brand consistency across <br />
+                  all web pages, among other duties
+                </li>
+                <li>
+                  <span>BACK-END WEB DEVELOPMENT</span><br />Analyze current
+                  codes and industry developments, formulate more efficient
+                  processes, <br />
+                  solve problems, and create a more seamless experience for
+                  users
+                </li>
+                <li>
+                  <span>FULL-STACK WEB DEVELOPMENT</span><br />Provide an
+                  end-to-end service, and can be involved in projects that
+                  involve databases <br />
+                  and building user-facing websites
+                </li>
+                <li>
+                  <span>OTHERS</span><br />Advanced Knowledge in Microsoft Excel
+                  <br />
+                  Excellent ENGLISH COMMUNICATION Skills <br />
+                  Knowledgeable about ISO 9001 QUALITY MANAGEMENT SYSTEM
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>CONSOLE ANALYST</span><br />Designed a TICKETING SYSTEM
+                  and CUSTOMER MANAGEMENT SYSTEM <br />
+                  for a major food franchise company.
+                </li>
+                <li>
+                  <span>PROCESS EXCELLENCE CONSULTANT</span><br />Created a
+                  Project for Jack in the Box Account regarding proper sorting
+                  <br />
+                  of individual restaurants’ issues in accordance to client’s
+                  desired Service Level
+                </li>
+                <li>
+                  <span>TALENT ACQUISITION CONSULTANT</span><br />Conducts phone
+                  interviews to pre-screen candidates, verifying their
+                  qualifications, <br />
+                  availability and compensation requirement
+                </li>
+                <li>
+                  <span>OTHERS</span><br />Professional Business English
+                  Communications Trainer and Assessor
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2006-2010 Bachelor of Science Chemical Engineering</span
+                  ><br />University of the Philippines - Diliman
+                </li>
+                <li>
+                  <span
+                    >2005-2006 Bachelor of Science in Chemical Engineering</span
+                  ><br />University of the Philippines - Los Banos
+                </li>
+                <li>
+                  <span>2001-2005 High School Valedictorian</span><br />La
+                  Salette of San Mateo
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------Services--------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Conceptualize creative ideas with clients. Test and improve the
+              design of the website. Establish design guidelines, standards, and
+              best practices. Maintain the appearance of websites by enforcing
+              content standards. Design visual imagery for websites and ensuring
+              that they are in line with branding for clients. Work with
+              different content management systems. Communicate design ideas
+              using user flows, process flows, site maps, and wireframes.
+              Incorporate functionalities and features into websites. Design
+              sample pages including colors and fonts. Prepare design plans and
+              present the website structure.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Investigate user experience design requirements for our suite of
+              digital assets. Develop and conceptualize a comprehensive UI/UX
+              design strategy for the brand. Produce high-quality UX design
+              solutions through wireframes, visual and graphic designs, flow
+              diagrams, storyboards, site maps, and prototypes. Design UI
+              elements and tools such as navigation menus, search boxes, tabs,
+              and widgets for our digital assets. Test UI elements such as CTAs,
+              banners, page layouts, page designs, page flows, and target links
+              for landing pages. Collaborate with the marketing team, and
+              internal and external designers to ensure the creation and
+              delivery of tailored experiences for the digital user. Provide
+              advice and guidance on the implementation of UX research
+              methodologies and testing activities in order to analyze and
+              predict user behavior. Adhere to style standards on typography and
+              graphic design.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>
+              Develop intuitive, usable, and engaging interactions and visual
+              designs for mobile. Provide strategic thinking and leadership.
+              Collaborate with cross-functional teams throughout the design
+              process. Participate in the development process from definition,
+              through design, build, test, release, and maintenance. Stay
+              abreast of UX trends and look for creative ideas and inspiration
+              in parallel analogous worlds. Research and track advancements in
+              mobile application design patterns. Break any design problem down
+              into viable actionable chunks and solve them with clarity and
+              precision.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------Portfolio--------->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Social Media Website</h3>
+              <p>
+                The website connects you to the talented people around the
+                world.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Music Website</h3>
+              <p>
+                A website that allows you to listen to music files stored in the
+                phone's internal or external memory.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Online Shopping Website</h3>
+              <p>
+                A digital shopping assistant that takes care of the little
+                extras to make online shopping more personal and convenient.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-----------Contact--------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> uaojaysongonzalo@gmail.com
+            </p>
+            <p>
+              <i class="fa-sharp fa-solid fa-square-phone"></i> +639614750378
+            </p>
+            <div class="social-icons">
+              <a href="https://facebook.com/" target="_blank    "
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a
+                href="https://www.linkedin.com/in/j-g-uao-15a660264/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+
+            <a
+              href="images/My Curriculum Vitae.pdf"
+              download
+              class="btn btn2"
+              target="_blank"
+              >Download CV</a
+            >
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">SUBMIT</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright <i class="fa-regular fa-copyright"></i> Jayson Gonzalo Uao.
+          Made with <i class="fa-solid fa-heart"></i> .
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwbl2OCEYEp6u--aHkwe3SF-mOafeRkA9SxbQXOTxSd0KeRkKdnEEx7PH0zXSjYlGOSKQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
